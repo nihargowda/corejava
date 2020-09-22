@@ -1,0 +1,11 @@
+package eg1;
+
+public class DEmo {
+
+	public static void main(String[] args) {
+		String s ="haGyy445 &n*,,,  Juuuu t3 7 @ 5t5y;";
+		System.out.println(s.replaceAll("[a-z]",""));
+
+	}
+
+}

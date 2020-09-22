@@ -1,0 +1,15 @@
+package eg1;
+
+public class Builder {
+
+	public static void main(String[] args) {
+		String s1="hello hi good ";
+		StringBuilder sb= new StringBuilder();
+		String s3[]= s1.split("");
+		for(String x:s3) {
+			sb.append(x);
+		}
+System.out.println(sb);
+	}
+
+}

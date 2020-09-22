@@ -1,0 +1,29 @@
+package arrays;
+
+public class Demo_1D {
+
+	public static void main(String[] args) {
+		int ar[]= {1,2,3,4,6,5};
+		System.out.println("iterating using for loop");
+		for (int i = 0; i < ar.length; i++) {
+			System.out.println(ar[i]);
+			
+		}
+		System.out.println("iterating uising for_each loop");
+		for(int x:ar) {
+System.out.println(x);
+		}
+		int ar1[]=new int[6];
+		ar1[0]= 2;
+		ar1[1]=3;
+		ar1[2]=6;
+		ar1[3]=4;
+		ar1[4]=1;
+		ar1[5]=9;
+		System.out.println("printing ar1");
+		for (int y:ar1) {
+			System.out.print( y);
+		}
+	}
+
+}

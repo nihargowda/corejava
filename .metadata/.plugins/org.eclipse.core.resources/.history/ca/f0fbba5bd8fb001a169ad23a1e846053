@@ -1,0 +1,10 @@
+package eg;
+
+public class MyThread  extends Thread{
+	@Override
+	public void run() {
+		System.out.println();
+		System.out.println("thread name is"+Thread.currentThread().getName()+"whose  id is "+ Thread.currentThread().getId() +"and priority is "+ Thread.currentThread().getPriority());
+	}
+	
+}

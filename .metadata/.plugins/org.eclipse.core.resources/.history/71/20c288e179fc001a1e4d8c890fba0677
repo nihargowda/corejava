@@ -1,0 +1,5 @@
+package synchronized_runnable;
+
+public class Printer {
+
+}

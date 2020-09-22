@@ -1,0 +1,10 @@
+package p2;
+
+public class Calcaccess {
+
+public static void main (String args[]) {
+	calc c=new calc();
+			c.add(5, 6);
+}
+	
+}

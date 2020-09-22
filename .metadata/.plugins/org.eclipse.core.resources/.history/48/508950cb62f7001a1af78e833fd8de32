@@ -1,0 +1,24 @@
+package eg;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Maps {
+
+	public static void main(String[] args) {
+		Map<Integer,String> ht= new HashMap<>();
+ht.put(5,"nihar");
+ht.put(4, "bunty");
+ht.put(3, "vviet");
+ht.put(2,"java");
+ht.put(1,null);
+System.out.println(ht);
+ht.remove(5);
+System.out.println(ht);
+
+
+		
+
+	}
+
+}
