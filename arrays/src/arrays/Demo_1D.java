@@ -49,7 +49,7 @@ System.out.println(x);
 		for(int r:ar1) {
 			System.out.print(r+" ");
 		}
-		System.out.println("\n");
+		
 		System.out.println(Arrays.toString(ar));
 		Arrays.sort(ar);
 		System.out.println("\n"+Arrays.toString(ar));
